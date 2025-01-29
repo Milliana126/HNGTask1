@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="HNG.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div data-testid="profile-card" class="profile-card">
+            <div class="profile-header">
+                <img data-testid="profile-image" src="profile picture 2.jpg" alt="Profile Image">
+                <div class="profile-info">
+                    <h1 data-testid="profile-name">Anyanwu Maximilliana Chinonyerem</h1>
+                    <h2 data-testid="job-title">Front-end Developer</h2>
+                    <p data-testid="current-location" class="location">
+                        <i class="fas fa-map-marker-alt"></i> Lagos, Nigeria
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile-content">
+                <p data-testid="short-bio" class="bio">
+                    Front-end developer specializing in modern web technologies with few of experience building scalable applications.
+                </p>
+                
+                <div data-testid="contact-info" class="contact-info">
+                    <a data-testid="email-address" href="mailto:john.anderson@example.com" class="email">
+                        <i class="fas fa-envelope">anyanwumaximilliana@gmail.com</i> 
+                    </a>
+                </div>
+
+                <div class="social-time-container">
+                    <div data-testid="social-links" class="social-links">
+                        <a href="https://www.linkedin.com/in/maximilliana-anyanwu" target="_blank" aria-label="LinkedIn">LinkedIn
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/maximillia80116?s=11" target="_blank" aria-label="Twitter">Twitter
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                          </a>
+                        <a href="https://github.com/Milliana126/Milliana126" target="_blank" aria-label="GitHub">GitHub
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+
+                    <div data-testid="current-time-utc" class="utc-time">
+                        <i class="fas fa-clock"></i>
+                        <span id="current-time">Loading UTC Time...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="HNG.js"></script>
+</body>
+</html>
